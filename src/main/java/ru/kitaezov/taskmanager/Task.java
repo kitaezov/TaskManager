@@ -13,8 +13,8 @@ public class Task {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @NotBlank(message = "Task title cannot be empty")
-    @Size(max = 100, message = "Task title cannot exceed 100 characters")
+    @NotBlank(message = "Название задачи не может быть пустым")
+    @Size(max = 100, message = "Название задания не должно превышать 100 символов")
     private String title;
 
     private String description;
