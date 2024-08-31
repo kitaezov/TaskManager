@@ -39,7 +39,7 @@ Task Manager — это простое приложение для управл�
 1. Клонируйте репозиторий:
 
    \`\`\`bash
-   git clone [https://github.com/kitaezov/Task-manager.git](https://github.com/kitaezov/TaskManager.git)
+   git clone https://github.com/kitaezov/Task-manager.git
    cd task-manager
    \`\`\`
 
